@@ -1,0 +1,15 @@
+.cipply-tag-right {
+    clip-path: polygon(84.6% 0%, 100% 50%, 84.6% 100%, 0% 100%, 15% 50%, 0% 0%);
+}
+
+.cipply-tag-start {
+    clip-path: polygon(0% 0%, 82.4% 0%, 100% 50%, 82.4% 100%, 0% 100%);
+}
+
+.cipply-tag-left {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+.cipply-tag-end {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}

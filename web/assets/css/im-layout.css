@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "DingTalk";
+    src: url("../font/DingTalk-JinBuTi.ttf");
+    src: url("../font/DingTalk-JinBuTi.woff");
+    src: url("../font/DingTalk-JinBuTi.woff2");
+}
+
+/* Box sizing rules */
+/* 钉钉进步体字库*/
+* {
+    box-sizing: border-box;
+    font-family: DingTalk, serif;
+}
+
+:root {
+    --color-im-red: "#c3272b";
+    --color-im-white: "#fffbef";
+    --color-im-black: "#151723";
+    --color-im-green: "#305f65";
+    --color-im-yellow: "#f0c239";
+    --color-im-blue: "#000371";
+    --color-im-orange: "#fe4519";
+    --color-im-golden: "#fe4519";
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+.table-filter {
+    width: 100%;
+}
+
+table[im-table] {
+    border: 1pt solid #ddd;
+    border-collapse: collapse;
+    text-align: center;
+    color: #686868;
+}
+
+table[im-table] td,
+table[im-table] tr {
+    border: 1pt solid #ddd;
+}
+
+table[im-table] td {
+    padding: 8pt 0;
+}

@@ -1,0 +1,99 @@
+:root{
+    --color-bgc: #022323;
+    --color-font: #eb0c70;
+    --streaming-offsetX: 0;
+    --streaming-offsetY: 0;
+}
+*{
+    background-color: var(--color-bgc);
+    color: var(--color-font);
+}
+#page-header,#page-footer{
+    overflow: hidden;
+    height: 42pt;
+}
+#page-header{
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    grid-template-rows: 42pt;
+    gap: 2pt;
+    background-color: #959696;
+    h1{
+        height: 100%;
+        background-color: inherit;
+        font-size: 12pt;
+    }
+}
+#root{
+    overflow-y: auto;
+    margin: 0 auto;
+    width: 80%;
+    min-height: calc(100vh - 84pt);
+    padding: 10pt;
+    .stream-wrap{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300pt, 1fr));
+        grid-gap: 8pt;
+        padding: 10pt;
+        .streaming-card{
+            box-shadow: 0 0 12pt 2pt #535353;
+            border-radius: 8pt;
+            position: relative;
+            z-index: 0;
+            min-height: 240pt;
+            cursor: pointer;
+            .steaming-card-item{
+                position: relative;
+                z-index: 4;
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 2pt;
+                background-color: transparent;
+                padding: 10pt;
+                border: 2pt inset;
+                
+                .stream-wrap-item-title{
+                    background-color: inherit;
+                    font-size: 16pt;
+                    text-align: center;
+                }
+                .streaming-card-descrption{
+                    background-color: inherit;
+                    font-size: 10pt;
+                }
+                
+            }
+            
+        }
+        .streaming-card::before,.streaming-card::after{
+            content: "";
+            position: absolute;
+        }
+        .streaming-card::after{
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #4f4f4f1d;
+            /* pointer-events: none; */
+            fill: blur(30pt);
+        }
+        .streaming-card::before{
+            left: var(--streaming-offsetX);
+            top: var(--streaming-offsetY);
+            width: 100pt;
+            height: 100pt;
+            background: radial-gradient(circle, #eb0c70 0%, #022323 100%);
+            border-radius: 50%;
+            z-index: 1;
+        }
+    }
+}
+#page-footer{
+    background-color: #959696;
+    padding: 10pt;
+    a{
+        background-color: #959696;
+    }
+}
