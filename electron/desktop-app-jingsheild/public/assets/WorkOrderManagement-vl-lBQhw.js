@@ -1,0 +1,1 @@
+import{_ as o,r,o as t,c,a as n}from"./index-DM9u3KzT.js";const a={},s={class:"worker-order-management"};function _(d,m){const e=r("router-view");return t(),c("section",s,[n(e)])}const i=o(a,[["render",_],["__scopeId","data-v-7cf9d25d"]]);export{i as default};

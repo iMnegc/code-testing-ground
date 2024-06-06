@@ -1,0 +1,9 @@
+{
+  "name": "desktop-app-jingsheild",
+  "version": "1.0.0",
+  "main": "main.mjs",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  }
+}

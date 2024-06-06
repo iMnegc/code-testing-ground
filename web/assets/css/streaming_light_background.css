@@ -13,14 +13,17 @@
 }
 #page-header,#page-footer{
     overflow: hidden;
-    height: 42pt;
+    height: 60pt;
+    background-color: #010826;
+    color: #d2d2d2;
 }
 #page-header{
+    z-index: 9;
+    position: sticky;
+    top: 0;
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 42pt;
     gap: 2pt;
-    background-color: #959696;
     h1{
         height: 100%;
         background-color: inherit;
@@ -118,9 +121,8 @@
     }
 }
 #page-footer{
-    background-color: #959696;
     padding: 10pt;
     a{
-        background-color: #959696;
+        background-color: transparent;
     }
 }

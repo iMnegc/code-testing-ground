@@ -1,0 +1,1 @@
+import{b as o,r as t,o as s,c as a,a as n}from"./index-DM9u3KzT.js";const r={class:"customer-management"},l={__name:"PermissionManagement",setup(c){return o({list:[],columns:[]}),(m,_)=>{const e=t("router-view");return s(),a("div",r,[n(e)])}}};export{l as default};

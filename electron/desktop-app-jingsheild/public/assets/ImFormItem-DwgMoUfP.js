@@ -1,0 +1,1 @@
+import{_ as o,o as a,c as r,e as c,G as l,A as m}from"./index-DM9u3KzT.js";const n={class:"im-form-item"},_={class:"im-form-item__label"},i={__name:"ImFormItem",props:{label:String},setup(e){const s=e;return(t,p)=>(a(),r("p",n,[c("label",_,l(s.label),1),m(t.$slots,"default",{},void 0,!0)]))}},f=o(i,[["__scopeId","data-v-7998d68f"]]);export{f as I};

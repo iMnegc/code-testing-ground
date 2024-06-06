@@ -1,0 +1,1 @@
+import{C as c,F as r}from"./Company-DDZ-Lnxp.js";import{_ as s,r as a,o as n,c as _,a as o}from"./index-DM9u3KzT.js";import"./company-logo-DHjvsKW8.js";const p={class:"account"},m={__name:"Account",setup(u){return(i,d)=>{const t=a("router-view"),e=r;return n(),_("div",p,[o(c),o(t),o(e)])}}},x=s(m,[["__scopeId","data-v-b0a7f044"]]);export{x as default};

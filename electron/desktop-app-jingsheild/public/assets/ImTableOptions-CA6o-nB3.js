@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,A as c}from"./index-DM9u3KzT.js";const n={},a={class:"im-table-options"};function r(e,_){return s(),t("p",a,[c(e.$slots,"default",{},void 0,!0)])}const l=o(n,[["render",r],["__scopeId","data-v-552c50c5"]]);export{l as I};
